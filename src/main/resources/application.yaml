@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: spring-async-call
+
+webclient:
+  basePath:
+    usersUrl: "http://jsonplaceholder.typicode.com/users"
+    postsUrl: "http://jsonplaceholder.typicode.com/posts"
+  timeout:
+    connect: 5000
+    read: 5000
+    write: 5000
+    response: 5000
+
+server:
+  port: 9191
