@@ -1,0 +1,54 @@
+{
+	"info": {
+		"_postman_id": "eb7c9bcd-69db-4db0-b8a9-daff778dc893",
+		"name": "Spring webclient",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "42469148"
+	},
+	"item": [
+		{
+			"name": "get with valid userId",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9191/api/users/v1/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9191",
+					"path": [
+						"api",
+						"users",
+						"v1",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get with invalid userId",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9191/api/users/v1/1asd",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9191",
+					"path": [
+						"api",
+						"users",
+						"v1",
+						"1asd"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
